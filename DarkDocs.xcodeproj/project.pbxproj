@@ -433,6 +433,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = dk.simonbs.DarkDocs;
 				PRODUCT_NAME = "Dark Docs";
 				SWIFT_VERSION = 5.0;
@@ -454,6 +455,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = dk.simonbs.DarkDocs;
 				PRODUCT_NAME = "Dark Docs";
 				SWIFT_VERSION = 5.0;
