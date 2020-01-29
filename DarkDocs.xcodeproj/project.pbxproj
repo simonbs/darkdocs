@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7207966A23E23057000EE09C /* DarkDocs.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 7207966923E23057000EE09C /* DarkDocs.entitlements */; };
+		7207966C23E23057000EE09C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207966B23E23057000EE09C /* AppDelegate.swift */; };
+		7207966F23E23057000EE09C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7207966D23E23057000EE09C /* Main.storyboard */; };
+		7207967123E23057000EE09C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207967023E23057000EE09C /* ViewController.swift */; };
+		7207967323E2305A000EE09C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7207967223E2305A000EE09C /* Assets.xcassets */; };
+		7207967A23E2305A000EE09C /* DarkDocs Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7207967923E2305A000EE09C /* DarkDocs Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7207967F23E2305A000EE09C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7207967E23E2305A000EE09C /* Cocoa.framework */; };
+		7207968223E2305A000EE09C /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207968123E2305A000EE09C /* SafariExtensionHandler.swift */; };
+		7207969823E230FD000EE09C /* docs.css in Resources */ = {isa = PBXBuildFile; fileRef = 7207969723E230FD000EE09C /* docs.css */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7207967B23E2305A000EE09C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7207965E23E23057000EE09C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7207967823E2305A000EE09C;
+			remoteInfo = "DarkDocs Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7207969323E2305A000EE09C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7207967A23E2305A000EE09C /* DarkDocs Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7207966623E23057000EE09C /* DarkDocs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkDocs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7207966923E23057000EE09C /* DarkDocs.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DarkDocs.entitlements; sourceTree = "<group>"; };
+		7207966B23E23057000EE09C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7207966E23E23057000EE09C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7207967023E23057000EE09C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7207967223E2305A000EE09C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7207967423E2305A000EE09C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7207967923E2305A000EE09C /* DarkDocs Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DarkDocs Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7207967E23E2305A000EE09C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7207968123E2305A000EE09C /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		7207968823E2305A000EE09C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7207968D23E2305A000EE09C /* DarkDocs_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DarkDocs_Extension.entitlements; sourceTree = "<group>"; };
+		7207969723E230FD000EE09C /* docs.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = docs.css; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7207966323E23057000EE09C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7207967623E2305A000EE09C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7207967F23E2305A000EE09C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7207965D23E23057000EE09C = {
+			isa = PBXGroup;
+			children = (
+				7207966823E23057000EE09C /* DarkDocs */,
+				7207968023E2305A000EE09C /* DarkDocs Extension */,
+				7207967D23E2305A000EE09C /* Frameworks */,
+				7207966723E23057000EE09C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7207966723E23057000EE09C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7207966623E23057000EE09C /* DarkDocs.app */,
+				7207967923E2305A000EE09C /* DarkDocs Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7207966823E23057000EE09C /* DarkDocs */ = {
+			isa = PBXGroup;
+			children = (
+				7207966923E23057000EE09C /* DarkDocs.entitlements */,
+				7207966B23E23057000EE09C /* AppDelegate.swift */,
+				7207966D23E23057000EE09C /* Main.storyboard */,
+				7207967023E23057000EE09C /* ViewController.swift */,
+				7207967223E2305A000EE09C /* Assets.xcassets */,
+				7207967423E2305A000EE09C /* Info.plist */,
+			);
+			path = DarkDocs;
+			sourceTree = "<group>";
+		};
+		7207967D23E2305A000EE09C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7207967E23E2305A000EE09C /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7207968023E2305A000EE09C /* DarkDocs Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7207968123E2305A000EE09C /* SafariExtensionHandler.swift */,
+				7207968823E2305A000EE09C /* Info.plist */,
+				7207968D23E2305A000EE09C /* DarkDocs_Extension.entitlements */,
+				7207969723E230FD000EE09C /* docs.css */,
+			);
+			path = "DarkDocs Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7207966523E23057000EE09C /* DarkDocs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7207969423E2305A000EE09C /* Build configuration list for PBXNativeTarget "DarkDocs" */;
+			buildPhases = (
+				7207966223E23057000EE09C /* Sources */,
+				7207966323E23057000EE09C /* Frameworks */,
+				7207966423E23057000EE09C /* Resources */,
+				7207969323E2305A000EE09C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7207967C23E2305A000EE09C /* PBXTargetDependency */,
+			);
+			name = DarkDocs;
+			productName = DarkDocs;
+			productReference = 7207966623E23057000EE09C /* DarkDocs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7207967823E2305A000EE09C /* DarkDocs Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7207969023E2305A000EE09C /* Build configuration list for PBXNativeTarget "DarkDocs Extension" */;
+			buildPhases = (
+				7207967523E2305A000EE09C /* Sources */,
+				7207967623E2305A000EE09C /* Frameworks */,
+				7207967723E2305A000EE09C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DarkDocs Extension";
+			productName = "DarkDocs Extension";
+			productReference = 7207967923E2305A000EE09C /* DarkDocs Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7207965E23E23057000EE09C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = SimonBS;
+				TargetAttributes = {
+					7207966523E23057000EE09C = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					7207967823E2305A000EE09C = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 7207966123E23057000EE09C /* Build configuration list for PBXProject "DarkDocs" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7207965D23E23057000EE09C;
+			productRefGroup = 7207966723E23057000EE09C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7207966523E23057000EE09C /* DarkDocs */,
+				7207967823E2305A000EE09C /* DarkDocs Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7207966423E23057000EE09C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7207966A23E23057000EE09C /* DarkDocs.entitlements in Resources */,
+				7207967323E2305A000EE09C /* Assets.xcassets in Resources */,
+				7207966F23E23057000EE09C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7207967723E2305A000EE09C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7207969823E230FD000EE09C /* docs.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7207966223E23057000EE09C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7207967123E23057000EE09C /* ViewController.swift in Sources */,
+				7207966C23E23057000EE09C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7207967523E2305A000EE09C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7207968223E2305A000EE09C /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7207967C23E2305A000EE09C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7207967823E2305A000EE09C /* DarkDocs Extension */;
+			targetProxy = 7207967B23E2305A000EE09C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7207966D23E23057000EE09C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7207966E23E23057000EE09C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7207968E23E2305A000EE09C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7207968F23E2305A000EE09C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7207969123E2305A000EE09C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "DarkDocs Extension/DarkDocs_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NQFWJHC63;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "DarkDocs Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dk.simonbs.DarkDocs-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7207969223E2305A000EE09C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "DarkDocs Extension/DarkDocs_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NQFWJHC63;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "DarkDocs Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dk.simonbs.DarkDocs-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7207969523E2305A000EE09C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DarkDocs/DarkDocs.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8NQFWJHC63;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = DarkDocs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dk.simonbs.DarkDocs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7207969623E2305A000EE09C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DarkDocs/DarkDocs.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8NQFWJHC63;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = DarkDocs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dk.simonbs.DarkDocs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7207966123E23057000EE09C /* Build configuration list for PBXProject "DarkDocs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7207968E23E2305A000EE09C /* Debug */,
+				7207968F23E2305A000EE09C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7207969023E2305A000EE09C /* Build configuration list for PBXNativeTarget "DarkDocs Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7207969123E2305A000EE09C /* Debug */,
+				7207969223E2305A000EE09C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7207969423E2305A000EE09C /* Build configuration list for PBXNativeTarget "DarkDocs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7207969523E2305A000EE09C /* Debug */,
+				7207969623E2305A000EE09C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7207965E23E23057000EE09C /* Project object */;
+}
