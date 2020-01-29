@@ -1,4 +1,4 @@
-# DarkDocs
+# Dark Docs
 
 Safari extensions that adds support for dark mode on apple.com/developer. The appearance follows the system setting.
 

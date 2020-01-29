@@ -43,7 +43,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7207966623E23057000EE09C /* DarkDocs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkDocs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7207966623E23057000EE09C /* Dark Docs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dark Docs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7207966923E23057000EE09C /* DarkDocs.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DarkDocs.entitlements; sourceTree = "<group>"; };
 		7207966B23E23057000EE09C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7207966E23E23057000EE09C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -90,7 +90,7 @@
 		7207966723E23057000EE09C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7207966623E23057000EE09C /* DarkDocs.app */,
+				7207966623E23057000EE09C /* Dark Docs.app */,
 				7207967923E2305A000EE09C /* DarkDocs Extension.appex */,
 			);
 			name = Products;
@@ -147,7 +147,7 @@
 			);
 			name = DarkDocs;
 			productName = DarkDocs;
-			productReference = 7207966623E23057000EE09C /* DarkDocs.app */;
+			productReference = 7207966623E23057000EE09C /* Dark Docs.app */;
 			productType = "com.apple.product-type.application";
 		};
 		7207967823E2305A000EE09C /* DarkDocs Extension */ = {
@@ -434,7 +434,7 @@
 					"@executable_path/../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = dk.simonbs.DarkDocs;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Dark Docs";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -455,7 +455,7 @@
 					"@executable_path/../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = dk.simonbs.DarkDocs;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Dark Docs";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
