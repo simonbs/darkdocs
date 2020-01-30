@@ -58,6 +58,10 @@
         border-top: 1px solid var(--sbs-secondary-text-color) !important;
     }
 
+    #main .category:not(:last-child) {
+        border-bottom: 1px solid var(--sbs-secondary-text-color) !important;
+    }
+
     /* CODE */
 
     .code-listing .code-source {
