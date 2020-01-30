@@ -4,6 +4,8 @@ Sitting in your bed hacking on your iOS app at night? Then you're probably frust
 
 This Safari extension adds support for dark mode on developer.apple.com/documentation. The appearance of the documentation will respect your system setting.
 
+![](https://raw.githubusercontent.com/simonbs/darkdocs/master/screenshot.png)
+
 ## Installation
 
 1. Download the app [here](https://github.com/simonbs/darkdocs/releases).
@@ -13,5 +15,3 @@ This Safari extension adds support for dark mode on developer.apple.com/document
 ## Usage
 
 After installing the app and enabling the extension, websites starting with developer.apple.com/documentation will automatically change to dark mode when your system appearance is set to dark.
-
-![](https://raw.githubusercontent.com/simonbs/darkdocs/master/screenshot.png)
