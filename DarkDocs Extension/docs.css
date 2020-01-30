@@ -109,6 +109,13 @@
         border-left: 6px solid var(--sbs-secondary-text-color) !important;
     }
 
+    /* VIOLATORS */
+
+    .violator {
+        border-color: var(--sbs-secondary-text-color) !important;
+        color: var(--sbs-secondary-text-color) !important;
+    }
+
     /* FOOTER */
 
     .alt-light {
