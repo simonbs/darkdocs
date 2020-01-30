@@ -1,21 +1,29 @@
 @media (prefers-color-scheme: dark) {
+    :root {
+        --sbs-primary-bg-color: #121212;
+        --sbs-secondary-bg-color: #313231;
+        --sbs-primary-text-color: white;
+        --sbs-secondary-text-color: #8e8e93;
+        --sbs-primary-link-color: #66bbff;
+    }
+
     html, body {
-        background-color: #121212 !important;
-        color: #ffffff !important;
+        background-color: var(--sbs-primary-bg-color) !important;
+        color: var(--sbs-primary-text-color) !important;
     }
 
     #main a {
-        color: #66bbff !important;
+        color: var(--sbs-primary-link-color) !important;
     }
 
     /* TOP MENU */
 
     #ac-globalnav {
-        background-color: #121212 !important;
+        background-color: var(--sbs-primary-bg-color) !important;
     }
 
     #ac-globalnav .ac-gn-link {
-        color: white !important;
+        color: var(--sbs-primary-text-color) !important;
     }
 
     #ac-globalnav .ac-gn-link-apple-developer {
@@ -29,37 +37,37 @@
     .datalist-term,
     .datalist-description dt,
     .datalist-description dt code {
-        color: #8e8e93 !important;
+        color: var(--sbs-secondary-text-color) !important;
     }
 
     .symbol-name-decorated .decorator, .symbol-name-decorated .label {
-        color: #8e8e93 !important;
+        color: var(--sbs-secondary-text-color) !important;
     }
 
     #main .svg-icon-small {
-        fill: #8e8e93 !important;
+        fill: var(--sbs-secondary-text-color) !important;
     }
 
     /* Separator below title and summary */
     #main .topic-content::before {
-        border-top: 1px solid #8e8e93 !important;
+        border-top: 1px solid var(--sbs-secondary-text-color) !important;
     }
 
     /* Separator below "See Also" */
     #main .contenttable-container {
-        border-top: 1px solid #8e8e93 !important;
+        border-top: 1px solid var(--sbs-secondary-text-color) !important;
     }
 
     /* CODE */
 
     .code-listing .code-source {
-        background-color: #313231 !important;
+        background-color: var(--sbs-secondary-bg-color) !important;
         border: 1px solid #444444 !important;
-        color: white !important;
+        color: var(--sbs-primary-text-color) !important;
     }
 
     .syntax-param-name {
-        color: white !important;
+        color: var(--sbs-primary-text-color) !important;
     }
 
     .syntax-comment, .syntax-quote {
@@ -86,10 +94,25 @@
         color: #41A1C0 !important;
     }
 
+    /* NOTE, TIP & IMPORTANT */
+
+    .aside {
+        background-color: var(--sbs-secondary-bg-color) !important;
+        color: var(--sbs-primary-text-color) !important;
+    }
+
+    .aside-name {
+        color: var(--sbs-primary-text-color) !important;
+    }
+
+    .aside-note, .aside-tip {
+        border-left: 6px solid var(--sbs-secondary-text-color) !important;
+    }
+
     /* FOOTER */
 
     .alt-light {
-        background-color: #121212 !important;
+        background-color: var(--sbs-primary-bg-color) !important;
     }
 
     #globalfooter-wrapper {
@@ -97,24 +120,24 @@
     }
 
     #globalfooter-wrapper a {
-        color: #66bbff !important;
+        color: var(--sbs-primary-link-color) !important;
     }
 
     #globalfooter-wrapper h3 a {
-        color: white !important;
+        color: var(--sbs-primary-text-color) !important;
     }
 
     #globalfooter-wrapper ul li a {
-        color: #8e8e93 !important;
+        color: var(--sbs-secondary-text-color) !important;
     }
 
     #globalfooter-wrapper home {
-        color: white !important;
+        color: var(--sbs-primary-text-color) !important;
     }
 
     #globalfooter-wrapper .breadcrumbs-home {
         background-color: transparent !important;
-        color: white !important;
+        color: var(--sbs-primary-text-color) !important;
     }
 
     .footer-breadory .breadcrumbs-home {
