@@ -66,10 +66,11 @@
 
     /* CODE */
 
-    .formatted-content .code-listing .code-source {
-        background-color: var(--sbs-secondary-bg-color) !important;
+    .formatted-content .code-listing .code-source,
+    .declaration .code-listing .code-source {
         border: 1px solid #444444 !important;
         color: var(--sbs-primary-text-color) !important;
+        background-color: var(--sbs-secondary-bg-color) !important;
     }
 
     .syntax-param-name {
@@ -126,6 +127,11 @@
 
     .betainfo {
         background-color: var(--sbs-quaternary-bg-color) !important;
+    }
+
+    .changed.code-listing .code-source, .changed .code-listing .code-source {
+        background-color: transparent !important;
+        border: 0 !important;
     }
 
     .changed::before {
