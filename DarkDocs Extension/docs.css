@@ -2,6 +2,8 @@
     :root {
         --sbs-primary-bg-color: #121212;
         --sbs-secondary-bg-color: #313231;
+        --sbs-tertiary-bg-color: #161716;
+        --sbs-quaternary-bg-color: #141514;
         --sbs-primary-text-color: white;
         --sbs-secondary-text-color: #8e8e93;
         --sbs-primary-link-color: #66bbff;
@@ -123,7 +125,7 @@
     /* BETA */
 
     .betainfo {
-        background-color: var(--sbs-secondary-bg-color) !important;
+        background-color: var(--sbs-quaternary-bg-color) !important;
     }
 
     .changed::before {
@@ -137,7 +139,7 @@
     }
 
     #globalfooter-wrapper {
-        background-color: #161716 !important;
+        background-color: var(--sbs-tertiary-bg-color) !important;
     }
 
     #globalfooter-wrapper a {
