@@ -64,7 +64,7 @@
 
     /* CODE */
 
-    .code-listing .code-source {
+    .formatted-content .code-listing .code-source {
         background-color: var(--sbs-secondary-bg-color) !important;
         border: 1px solid #444444 !important;
         color: var(--sbs-primary-text-color) !important;
@@ -118,6 +118,16 @@
     .violator {
         border-color: var(--sbs-secondary-text-color) !important;
         color: var(--sbs-secondary-text-color) !important;
+    }
+
+    /* BETA */
+
+    .betainfo {
+        background-color: var(--sbs-secondary-bg-color) !important;
+    }
+
+    .changed::before {
+        background: transparent !important;
     }
 
     /* FOOTER */
