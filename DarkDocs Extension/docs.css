@@ -9,8 +9,12 @@
         --sbs-primary-link-color: #66bbff;
     }
 
-    html, body {
+    html, body, .featured, .section-background {
         background-color: var(--sbs-primary-bg-color) !important;
+        color: var(--sbs-primary-text-color) !important;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
         color: var(--sbs-primary-text-color) !important;
     }
 
@@ -38,12 +42,17 @@
     .eyebrow,
     .datalist-term,
     .datalist-description dt,
-    .datalist-description dt code {
+    .datalist-description dt code,
+    .copy {
         color: var(--sbs-secondary-text-color) !important;
     }
 
     .symbol-name-decorated .decorator, .symbol-name-decorated .label {
         color: var(--sbs-secondary-text-color) !important;
+    }
+
+    .label {
+        color: var(--sbs-primary-text-color) !important;
     }
 
     #main .svg-icon-small {
@@ -64,7 +73,66 @@
         border-bottom: 1px solid var(--sbs-secondary-text-color) !important;
     }
 
+    .doc-topic {
+        background: unset !important;
+    }
+
+    .contenttable-section, .primary-content:before {
+        border-top-color: var(--sbs-secondary-bg-color) !important;
+    }
+
+    div.summary-section.frameworks>p, div.summary-section.availability>p, #on-this-page-title {
+        color: var(--sbs-secondary-text-color) !important;
+    }
+
+    .form-dropdown, .filter__delete-button-wrapper {
+        background: var(--sbs-tertiary-bg-color) !important;
+    }
+
+    .filter__wrapper {
+        border-color: var(--sbs-tertiary-bg-color) !important;
+    }
+
+    .card:not(.changed), .filter__suggested-tags {
+        border-color: #333 !important;
+    }
+
+    .form-dropdown~.form-icon {
+        color: #333 !important;
+    }
+    
+    .tag button:not(:hover) {
+        background-color: var(--sbs-secondary-bg-color) !important;
+        color: var(--sbs-primary-text-color) !important;
+    }
+    
+    .card:not(.featured-card) > .details {
+        background-color: var(--sbs-tertiary-bg-color) !important;
+    }
+    
+    .details .title {
+        color: var(--sbs-primary-text-color) !important;
+    }
+    
+    .details .content {
+        color: var(--sbs-secondary-text-color) !important;
+    }
+    
+    .resources {
+        background-color: var(--sbs-tertiary-bg-color) !important;
+    }
+
+    /* `Download` button */
+    #main>div.row.container>div.col.description.large-9.medium-9.small-12>a:any-link {
+        color: #fff !important;
+    }
+
     /* CODE */
+
+    .source, .code-listing {
+        background: var(--sbs-tertiary-bg-color) !important;
+        border-color: var(--sbs-tertiary-bg-color) !important;
+    }
 
     .formatted-content .code-listing .code-source,
     .declaration .code-listing .code-source {
@@ -101,6 +169,10 @@
         color: #41A1C0 !important;
     }
 
+    .source, .code-listing, .card__title, .code-line {
+        color: #fff !important;
+    }
+
     /* NOTE, TIP & IMPORTANT */
 
     .aside {
@@ -114,6 +186,18 @@
 
     .aside-note, .aside-tip {
         border-left: 6px solid var(--sbs-secondary-text-color) !important;
+    }
+
+    .note, .important {
+        background: var(--sbs-tertiary-bg-color) !important;
+    }
+
+    .note {
+        border-left-color: #222 !important;
+    }
+
+    .important {
+        border-left-color: #fee450 !important;
     }
 
     /* VIOLATORS */
@@ -167,6 +251,10 @@
     #globalfooter-wrapper .breadcrumbs-home {
         background-color: transparent !important;
         color: var(--sbs-primary-text-color) !important;
+    }
+    
+    .ac-gf-footer-news {
+        border-bottom-color: #222 !important;
     }
 
     .footer-breadory .breadcrumbs-home {
