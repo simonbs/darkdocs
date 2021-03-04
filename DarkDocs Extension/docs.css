@@ -46,6 +46,10 @@
     .copy {
         color: var(--sbs-secondary-text-color) !important;
     }
+    
+    aside[data-v-bea67dc0].deprecated {
+        background-color: var(--sbs-secondary-bg-color);
+    }
 
     .symbol-name-decorated .decorator, .symbol-name-decorated .label {
         color: var(--sbs-secondary-text-color) !important;
