@@ -14,4 +14,4 @@ This Safari extension adds support for dark mode on developer.apple.com/document
 
 ## Usage
 
-After installing the app and enabling the extension, websites starting with developer.apple.com/documentation will automatically change to dark mode when your system appearance is set to dark.
+After installing the app and enabling the extension, websites starting with developer.apple.com/documentation and developer.apple.com/search will automatically change to dark mode when your system appearance is set to dark.
