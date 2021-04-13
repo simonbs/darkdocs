@@ -4,7 +4,7 @@ Sitting in your bed hacking on your app at night? Then you're probably frustrate
 
 This Safari extension adds support for dark mode on developer.apple.com/documentation and developer.apple.com/search. The appearance of the documentation will respect your system setting.
 
-![](https://raw.githubusercontent.com/simonbs/darkdocs/master/screenshot.png)
+<img width="450" src="https://raw.githubusercontent.com/simonbs/darkdocs/master/screenshot-docs.png" /> <img width="450" src="https://raw.githubusercontent.com/simonbs/darkdocs/master/screenshot-search.png" />
 
 ## Installation
 
