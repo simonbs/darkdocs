@@ -47,8 +47,8 @@
         color: var(--sbs-secondary-text-color) !important;
     }
     
-    aside[data-v-bea67dc0].deprecated {
-        background-color: var(--sbs-secondary-bg-color);
+    aside.deprecated {
+        background-color: var(--sbs-secondary-bg-color) !important;
     }
 
     .symbol-name-decorated .decorator, .symbol-name-decorated .label {
