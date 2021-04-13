@@ -46,6 +46,8 @@
 				<array>
 					<string>https://developer.apple.com/documentation</string>
 					<string>https://developer.apple.com/documentation/*</string>
+					<string>https://developer.apple.com/search</string>
+					<string>https://developer.apple.com/search/*</string>
 				</array>
 			</dict>
 		</array>
