@@ -46,6 +46,10 @@
     .copy {
         color: var(--sbs-secondary-text-color) !important;
     }
+
+    div#loading-placeholder {
+        background-color: var(--sbs-primary-bg-color) !important;
+    }
     
     aside.deprecated {
         background-color: var(--sbs-secondary-bg-color) !important;
