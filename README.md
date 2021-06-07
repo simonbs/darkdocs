@@ -1,6 +1,6 @@
 # Dark Docs
 
-**The project have been archived as Apple's documentation now support dark mode by default**
+**The project have been archived as Apple's documentation now support dark mode by default.**
 
 ----
 
